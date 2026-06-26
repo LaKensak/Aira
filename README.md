@@ -10,14 +10,14 @@ Toolkit de reverse engineering assisté par IA. Analyse statique, exécution sym
 
 - **Python 3.11** (3.12 marche avec le `sitecustomize.py` fourni, mais bon)
 - **FastAPI + Uvicorn** — backend API + frontend statique
-- **LIEF** — parsing PE / ELF / MachO
-- **angr** — exécution symbolique, résolution de contraintes
-- **Frida** — hooking dynamique, bypass anti-debug
-- **YARA** — 14 fichiers de signatures (anti-debug, packers, shellcode, C2, ransomware...)
-- **Ghidra + GhidraMCP** — décompilation via bridge MCP
-- **MCP (Model Context Protocol)** — exposition d'outils pour agents LLM
-- **Capstone** — désassemblage
-- **Rich** — affichage CLI
+- **LIEF** parsing PE / ELF / MachO
+- **angr** exécution symbolique, résolution de contraintes
+- **Frida** hooking dynamique, bypass anti-debug
+- **YARA** 14 fichiers de signatures (anti-debug, packers, shellcode, C2, ransomware...)
+- **Ghidra + GhidraMCP** décompilation via bridge MCP
+- **MCP (Model Context Protocol)** exposition d'outils pour agents LLM
+- **Capstone** désassemblage
+- **Rich** affichage CLI
 
 ---
 
